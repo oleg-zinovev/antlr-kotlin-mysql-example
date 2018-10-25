@@ -42,6 +42,8 @@
             <groupId>com.strumenta.antlr-kotlin</groupId>
             <artifactId>antlr-kotlin-runtime-jvm</artifactId>
             <version>${antlr-kotlin.version}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/antlr-kotlin-runtime-jvm-0.0.2.jar</systemPath>
             <exclusions>
                 <exclusion>
                     <groupId>org.jetbrains.kotlin</groupId>
@@ -110,6 +112,8 @@
                         <groupId>com.strumenta</groupId>
                         <artifactId>antlr-kotlin</artifactId>
                         <version>${antlr-kotlin.version}</version>
+                        <scope>system</scope>
+                        <systemPath>${project.basedir}/libs/antlr-kotlin-target-0.0.2.jar</systemPath>
                     </dependency>
                 </dependencies>
 
